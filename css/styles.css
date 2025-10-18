@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+
+  display: flex;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0e1823;
+  color: #fbfbfb;
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  height: fit-content;
+}
+
+.icon-svg {
+  fill: #1b414b;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 235px;
+  padding-bottom: 215px;
+}
+
+.section-one-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one-h1 {
+  letter-spacing: 0.016em;
+  line-height: 1em;
+  width: 1001px;
+  font-weight: 500;
+  font-size: 80px;
+  text-align: center;
+}
+
+.section-one-p {
+  font-style: Light;
+  width: 597px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.4em;
+  margin: 24px 202px 46px 202px;
+}
+
+.section-one-button {
+  color: #fbfbfb;
+  width: 179px;
+  height: 52px;
+  border-radius: 15px;
+  background-color: #1b414b;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1em;
+}
+
+.img-section-sixth {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.img-section-sixth-item {
+  display: block;
+  border-radius: 50%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.form-init {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-button-submit {
+  display: flex;
+  background-color: #1b414b;
+  width: 194px;
+  height: 56px;
+  border-radius: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: 1.1;
+}
